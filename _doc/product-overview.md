@@ -1,0 +1,1 @@
+buatin aplikasi sederhana 1 landing page aja sih ya, jangan lama, dan saya butuh cepat. 1lp 3 section dimana ini adalah lp untuk promosi bisnis saya yaitu jualan kopi
