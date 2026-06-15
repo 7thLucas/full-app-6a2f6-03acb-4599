@@ -1,3 +1,4 @@
+import React from 'react';
 import type { TDefaultConfigurableData } from "~/modules/configurables/src/constants/configurables.default";
 
 interface ContactSectionProps {

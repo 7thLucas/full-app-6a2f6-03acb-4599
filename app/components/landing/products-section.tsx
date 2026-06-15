@@ -1,3 +1,4 @@
+import React from 'react';
 import type { TDefaultConfigurableData, TCoffeeProduct } from "~/modules/configurables/src/constants/configurables.default";
 
 interface ProductsSectionProps {
