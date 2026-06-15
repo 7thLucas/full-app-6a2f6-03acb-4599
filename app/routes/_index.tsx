@@ -17,7 +17,7 @@ export default function IndexPage() {
         style={{ background: "#FAFAF7" }}
       >
         <div className="flex flex-col items-center gap-4">
-          <span className="text-5xl animate-pulse select-none">☕</span>
+          <span className="text-5xl animate-pulse select-none">☕ 123</span>
           <p
             className="text-sm font-medium tracking-wide"
             style={{ color: "#6B3F1F", fontFamily: "'Playfair Display', serif" }}
