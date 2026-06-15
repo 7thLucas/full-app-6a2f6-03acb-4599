@@ -33,3 +33,8 @@ Satu landing page, tiga section:
 - Mobile-first (mayoritas traffic via smartphone)
 - CTA jelas di setiap lipatan halaman
 - Tidak ada fitur kompleks — fokus pada konversi: pengunjung → pesan via WhatsApp
+
+## Planned Features (Roadmap)
+1. **Formulir Pemesanan Online** — Form pemesanan langsung di halaman agar pembeli bisa memesan tanpa keluar dari LP; menggantikan alur murni WhatsApp dengan opsi form terstruktur.
+2. **Galeri & Testimoni Pelanggan** — Section foto produk nyata dan ulasan pembeli untuk membangun kepercayaan dan bukti sosial.
+3. **Integrasi WhatsApp Catalog** — Tautan WhatsApp Catalog per produk sehingga setiap item menu mengarahkan langsung ke katalog WA pemilik bisnis.
