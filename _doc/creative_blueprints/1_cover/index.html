@@ -1,0 +1,55 @@
+<style>
+.mode-landscape .sl-layout { flex-direction: row; }
+.mode-portrait .sl-layout { flex-direction: column; }
+.mode-landscape .sl-left { width: 52%; }
+.mode-portrait .sl-left { width: 100%; min-height: 50%; }
+.mode-landscape .sl-right { flex: 1; }
+.mode-portrait .sl-right { flex: 1; }
+</style>
+
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout flex h-full">
+
+    <!-- Left: brand column -->
+    <div class="sl-left flex flex-col justify-between p-12" style="background:#2C1A0E;">
+      <div>
+        <span class="inline-block text-xs font-bold tracking-widest uppercase px-3 py-1 rounded-full" style="background:#C47E1A20; color:#C47E1A; border:1px solid #C47E1A55;">
+          Landing Page · Bisnis Kopi
+        </span>
+        <h1 class="mt-6 font-bold leading-tight" style="font-size:2.6rem; color:#FDF6E3;">
+          Satu Halaman.<br>Seribu Pelanggan<br>Baru.
+        </h1>
+        <p class="mt-5 text-base leading-relaxed" style="color:#C4A882; max-width:30ch;">
+          Promosi bisnis kopi Anda dengan landing page bersih, cepat, dan siap konversi — tanpa ribet.
+        </p>
+      </div>
+      <div class="mt-8">
+        <div class="flex items-center gap-3 mb-6">
+          <span class="w-8 h-px" style="background:#C47E1A;"></span>
+          <span class="text-xs tracking-widest uppercase" style="color:#8B6B4F;">3 Section · 1 Tujuan · Langsung Pesan</span>
+        </div>
+        <data-attribution />
+      </div>
+    </div>
+
+    <!-- Right: image -->
+    <div class="sl-right relative overflow-hidden" style="background:#1A0F07;">
+      <img
+        src="http://localhost:8001/common/image-generation?prompt=premium+artisan+coffee+cup+with+beautiful+latte+art+steam+rising+moody+dark+warm+amber+lighting+top+down+flat+lay+Indonesian+coffee+shop"
+        class="w-full h-full object-cover"
+        style="opacity:0.88;"
+        alt="Kopi Artisan"
+      />
+      <!-- Gradient overlay left edge for blend -->
+      <div class="absolute inset-y-0 left-0 w-12" style="background:linear-gradient(to right,#2C1A0E,transparent);"></div>
+      <!-- Badge overlay -->
+      <div class="absolute bottom-10 right-10 text-right">
+        <div class="inline-block px-5 py-3 rounded-xl" style="background:#2C1A0Ecc; border:1px solid #C47E1A44;">
+          <p class="text-xs font-semibold tracking-widest uppercase" style="color:#C47E1A;">Siap Dalam Hitungan Menit</p>
+          <p class="text-2xl font-bold mt-1" style="color:#FDF6E3;">Hero · Menu · Kontak</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
