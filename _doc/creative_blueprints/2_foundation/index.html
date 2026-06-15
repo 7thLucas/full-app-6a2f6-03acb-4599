@@ -1,0 +1,86 @@
+<style>
+.mode-landscape .sl-layout { flex-direction: row; gap: 0; }
+.mode-portrait .sl-layout { flex-direction: column; }
+.mode-landscape .sl-problem { width: 46%; }
+.mode-portrait .sl-problem { width: 100%; }
+.mode-landscape .sl-solution { flex: 1; }
+.mode-portrait .sl-solution { flex: 1; }
+</style>
+
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col h-full p-10" style="background:#FDF6E3;">
+
+    <!-- Header -->
+    <div class="mb-8">
+      <span class="text-xs font-bold tracking-widest uppercase" style="color:#C47E1A;">Masalah & Solusi</span>
+      <h2 class="text-3xl font-bold mt-2" style="color:#2C1A0E;">Kenapa Bisnis Kopi Butuh Landing Page?</h2>
+    </div>
+
+    <!-- Two-column body -->
+    <div class="sl-layout flex flex-1 gap-6">
+
+      <!-- The Problem -->
+      <div class="sl-problem flex flex-col rounded-2xl overflow-hidden" style="background:#2C1A0E;">
+        <div class="p-8 flex flex-col h-full">
+          <div class="flex items-center gap-2 mb-5">
+            <span class="text-lg">☕</span>
+            <span class="text-xs font-bold tracking-widest uppercase" style="color:#C47E1A;">Tantangan</span>
+          </div>
+          <ul class="space-y-4 flex-1">
+            <li class="flex gap-3">
+              <span class="mt-0.5 w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0 text-xs font-bold" style="background:#C47E1A22; color:#C47E1A;">1</span>
+              <p class="text-sm leading-relaxed" style="color:#C4A882;">Bisnis kopi bergantung pada media sosial yang ramai dan tidak terstruktur — calon pelanggan bingung cara memesan.</p>
+            </li>
+            <li class="flex gap-3">
+              <span class="mt-0.5 w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0 text-xs font-bold" style="background:#C47E1A22; color:#C47E1A;">2</span>
+              <p class="text-sm leading-relaxed" style="color:#C4A882;">Tidak ada satu titik digital yang merepresentasikan brand secara profesional — kesan pertama terlewat.</p>
+            </li>
+            <li class="flex gap-3">
+              <span class="mt-0.5 w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0 text-xs font-bold" style="background:#C47E1A22; color:#C47E1A;">3</span>
+              <p class="text-sm leading-relaxed" style="color:#C4A882;">Membuat website terasa mahal, lama, dan teknis — padahal yang dibutuhkan hanya satu halaman yang bekerja.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- The Solution -->
+      <div class="sl-solution flex flex-col gap-4">
+        <div class="flex items-center gap-2 mb-1">
+          <span class="text-lg">✨</span>
+          <span class="text-xs font-bold tracking-widest uppercase" style="color:#2C1A0E;">Solusi</span>
+        </div>
+
+        <div class="flex-1 rounded-2xl p-7 flex flex-col justify-between" style="background:#fff; border:1.5px solid #E8D5B7;">
+          <div>
+            <h3 class="text-xl font-bold leading-snug" style="color:#2C1A0E;">Landing Page Kopi — 3 Section, Satu Tujuan</h3>
+            <p class="mt-3 text-sm leading-relaxed" style="color:#6B5744;">Satu halaman terstruktur yang memperkenalkan brand, memamerkan menu, dan mengarahkan pengunjung langsung ke WhatsApp untuk memesan. Tidak ada akun, tidak ada checkout rumit — hanya konversi.</p>
+          </div>
+          <div class="mt-5 grid grid-cols-3 gap-3">
+            <div class="rounded-xl p-4 text-center" style="background:#FDF6E3; border:1px solid #E8D5B7;">
+              <p class="text-xs font-bold" style="color:#2C1A0E;">Hero</p>
+              <p class="text-xs mt-1" style="color:#8B6B4F;">Brand & tagline</p>
+            </div>
+            <div class="rounded-xl p-4 text-center" style="background:#2C1A0E;">
+              <p class="text-xs font-bold" style="color:#C47E1A;">Menu</p>
+              <p class="text-xs mt-1" style="color:#C4A882;">Produk unggulan</p>
+            </div>
+            <div class="rounded-xl p-4 text-center" style="background:#FDF6E3; border:1px solid #E8D5B7;">
+              <p class="text-xs font-bold" style="color:#2C1A0E;">Kontak</p>
+              <p class="text-xs mt-1" style="color:#8B6B4F;">CTA & pesan</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Supporting image strip -->
+        <div class="rounded-2xl overflow-hidden" style="height:90px;">
+          <img
+            src="http://localhost:8001/common/image-generation?prompt=flat+lay+coffee+beans+and+cups+warm+light+wooden+table+top+view+Indonesian+coffee+shop+cozy"
+            class="w-full h-full object-cover"
+            alt="Kopi"
+          />
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
