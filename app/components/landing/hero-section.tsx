@@ -63,7 +63,7 @@ export function HeroSection({ config }: HeroSectionProps) {
             color: isImageHero ? "#fff" : secondary,
           }}
         >
-          {config.appName ?? "Crustyverr"}
+          {config.appName ?? "Crustyverr 123"}
         </span>
         <button
           onClick={handleOrderClick}
