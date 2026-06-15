@@ -1,7 +1,7 @@
 # Product Overview
 
 ## Product
-**Name**: Kopi (nama belum ditentukan — placeholder)
+**Name**: Crustyverr
 **Type**: Single-page promotional landing page
 **Language/Market**: Indonesia
 
