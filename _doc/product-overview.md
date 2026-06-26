@@ -2,7 +2,7 @@
 
 ## Product
 **Name**: Crustyverr
-**Type**: Single-page promotional landing page
+**Type**: Multi-page promotional web app (Landing Page + About Page)
 **Language/Market**: Indonesia
 
 ## Purpose
