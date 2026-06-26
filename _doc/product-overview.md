@@ -13,10 +13,11 @@ Mempromosikan bisnis jualan kopi secara online. Memberikan kesan pertama yang ku
 - **Pemilik Bisnis**: Pengguna platform yang membutuhkan landing page cepat untuk promosi.
 
 ## App Structure
-Satu landing page, tiga section:
+Landing page utama (tiga section) + halaman About terpisah:
 1. **Hero** — Branding utama, tagline memikat, tombol CTA ("Pesan Sekarang" / "Lihat Menu").
 2. **Menu / Produk** — Menampilkan pilihan kopi unggulan dengan deskripsi singkat dan harga.
 3. **Kontak / CTA Akhir** — Link WhatsApp untuk pemesanan, lokasi, atau form kontak sederhana.
+4. **About Page** (`/about-page`) — Cerita brand, misi & nilai-nilai, team spotlight, dan CTA balik ke LP; membangun kepercayaan calon pembeli sebelum memesan.
 
 ## Positioning
 - Tone: hangat, artisanal, ramah, autentik
