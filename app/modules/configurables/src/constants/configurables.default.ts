@@ -40,6 +40,7 @@ export type TDefaultConfigurableData = {
   whatsappMessage: string;
   contactCTALabel: string;
   instagramHandle: string;
+  contactEmail: string;
   footerText: string;
   // Colors
   pageBackground: string;
@@ -99,6 +100,7 @@ export const defaultConfigurablesData: TDefaultConfigurableData = {
   whatsappMessage: "Halo Crustyverr! Saya mau pesan kopi 😊",
   contactCTALabel: "Chat via WhatsApp",
   instagramHandle: "crustyverr.coffee",
+  contactEmail: "verr@crustyverr.com",
   footerText: "© 2024 Crustyverr. Dibuat dengan ☕ dan cinta.",
   // Colors
   pageBackground: "#FAFAF7",

@@ -171,6 +171,13 @@ export const configurableSchemas: ConfigurableSchemas = {
       maxLength: 60,
     },
     {
+      fieldName: "contactEmail",
+      type: "string",
+      required: false,
+      label: "Contact Email Address",
+      maxLength: 120,
+    },
+    {
       fieldName: "footerText",
       type: "string",
       required: false,

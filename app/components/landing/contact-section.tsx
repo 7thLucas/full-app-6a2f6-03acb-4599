@@ -19,6 +19,7 @@ export function ContactSection({ config }: ContactSectionProps) {
 
   const igHandle = config.instagramHandle;
   const igLink = igHandle ? `https://instagram.com/${igHandle}` : null;
+  const contactEmail = config.contactEmail;
 
   const footerText = config.footerText ?? `© ${new Date().getFullYear()} ${config.appName ?? "Crustyverr"}`;
 
@@ -73,6 +74,23 @@ export function ContactSection({ config }: ContactSectionProps) {
             </svg>
             {config.contactCTALabel ?? "Chat via WhatsApp"}
           </a>
+
+          {/* Email button */}
+          {contactEmail && (
+            <div className="mt-4">
+              <a
+                href={`mailto:${contactEmail}`}
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-sm font-semibold transition-all hover:scale-105 active:scale-95"
+                style={{ background: "rgba(245,230,200,0.15)", color: secondary, border: `1px solid rgba(245,230,200,0.3)` }}
+              >
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <rect x="2" y="4" width="20" height="16" rx="2" />
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                </svg>
+                {contactEmail}
+              </a>
+            </div>
+          )}
 
           {/* Instagram link */}
           {igLink && (
